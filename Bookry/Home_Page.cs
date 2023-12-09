@@ -10,21 +10,11 @@ using System.Windows.Forms;
 
 namespace Bookry
 {
-    public partial class Form1 : Form
+    public partial class Home_Page : Form
     {
-        public Form1()
+        public Home_Page()
         {
             InitializeComponent();
-        }
-
-        private void Login_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void Exit_Click(object sender, EventArgs e)
-        {
-            this.Close();
         }
     }
 }
