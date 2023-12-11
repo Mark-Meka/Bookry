@@ -182,6 +182,7 @@
             this.bunifuThinButton21.ActiveForecolor = System.Drawing.Color.IndianRed;
             this.bunifuThinButton21.ActiveLineColor = System.Drawing.Color.White;
             this.bunifuThinButton21.BackColor = System.Drawing.Color.Teal;
+            this.bunifuThinButton21.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("bunifuThinButton21.BackgroundImage")));
             this.bunifuThinButton21.ButtonText = "Books";
             this.bunifuThinButton21.Cursor = System.Windows.Forms.Cursors.Hand;
             this.bunifuThinButton21.Font = new System.Drawing.Font("Century Gothic", 10.75F, System.Drawing.FontStyle.Bold);
@@ -206,6 +207,7 @@
             this.bunifuThinButton22.ActiveForecolor = System.Drawing.Color.IndianRed;
             this.bunifuThinButton22.ActiveLineColor = System.Drawing.Color.White;
             this.bunifuThinButton22.BackColor = System.Drawing.Color.Teal;
+            this.bunifuThinButton22.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("bunifuThinButton22.BackgroundImage")));
             this.bunifuThinButton22.ButtonText = "Issue Books";
             this.bunifuThinButton22.Cursor = System.Windows.Forms.Cursors.Hand;
             this.bunifuThinButton22.Font = new System.Drawing.Font("Century Gothic", 10.75F, System.Drawing.FontStyle.Bold);
@@ -230,6 +232,7 @@
             this.bunifuThinButton23.ActiveForecolor = System.Drawing.Color.IndianRed;
             this.bunifuThinButton23.ActiveLineColor = System.Drawing.Color.White;
             this.bunifuThinButton23.BackColor = System.Drawing.Color.Teal;
+            this.bunifuThinButton23.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("bunifuThinButton23.BackgroundImage")));
             this.bunifuThinButton23.ButtonText = "Return Books";
             this.bunifuThinButton23.Cursor = System.Windows.Forms.Cursors.Hand;
             this.bunifuThinButton23.Font = new System.Drawing.Font("Century Gothic", 10.75F, System.Drawing.FontStyle.Bold);
@@ -254,6 +257,7 @@
             this.bunifuThinButton24.ActiveForecolor = System.Drawing.Color.IndianRed;
             this.bunifuThinButton24.ActiveLineColor = System.Drawing.Color.White;
             this.bunifuThinButton24.BackColor = System.Drawing.Color.Teal;
+            this.bunifuThinButton24.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("bunifuThinButton24.BackgroundImage")));
             this.bunifuThinButton24.ButtonText = "Return Books";
             this.bunifuThinButton24.Cursor = System.Windows.Forms.Cursors.Hand;
             this.bunifuThinButton24.Font = new System.Drawing.Font("Century Gothic", 10.75F, System.Drawing.FontStyle.Bold);
