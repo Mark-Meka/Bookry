@@ -58,11 +58,11 @@
             // Clear
             // 
             this.Clear.AutoSize = true;
-            this.Clear.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold);
+            this.Clear.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold);
             this.Clear.ForeColor = System.Drawing.Color.SaddleBrown;
             this.Clear.Location = new System.Drawing.Point(79, 325);
             this.Clear.Name = "Clear";
-            this.Clear.Size = new System.Drawing.Size(57, 19);
+            this.Clear.Size = new System.Drawing.Size(68, 20);
             this.Clear.TabIndex = 3;
             this.Clear.Text = "CLEAR";
             // 
@@ -77,7 +77,7 @@
             this.Login.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("Login.BackgroundImage")));
             this.Login.ButtonText = "LOGIN";
             this.Login.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.Login.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Login.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Login.ForeColor = System.Drawing.Color.White;
             this.Login.IdleBorderThickness = 1;
             this.Login.IdleCornerRadius = 20;
@@ -85,7 +85,7 @@
             this.Login.IdleForecolor = System.Drawing.Color.SeaShell;
             this.Login.IdleLineColor = System.Drawing.Color.SeaShell;
             this.Login.Location = new System.Drawing.Point(48, 279);
-            this.Login.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Login.Margin = new System.Windows.Forms.Padding(4);
             this.Login.Name = "Login";
             this.Login.Size = new System.Drawing.Size(123, 42);
             this.Login.TabIndex = 2;
@@ -95,7 +95,7 @@
             // Password
             // 
             this.Password.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.Password.Font = new System.Drawing.Font("Century Gothic", 9.75F);
+            this.Password.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F);
             this.Password.ForeColor = System.Drawing.Color.SaddleBrown;
             this.Password.HintForeColor = System.Drawing.Color.Empty;
             this.Password.HintText = "";
@@ -115,7 +115,7 @@
             // Username
             // 
             this.Username.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.Username.Font = new System.Drawing.Font("Century Gothic", 9.75F);
+            this.Username.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F);
             this.Username.ForeColor = System.Drawing.Color.SaddleBrown;
             this.Username.HintForeColor = System.Drawing.Color.Empty;
             this.Username.HintText = "";
@@ -134,7 +134,7 @@
             // 
             // label1
             // 
-            this.label1.Font = new System.Drawing.Font("Century Gothic", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.SaddleBrown;
             this.label1.Location = new System.Drawing.Point(43, 65);
             this.label1.Name = "label1";
@@ -146,11 +146,11 @@
             // 
             this.label4.AutoSize = true;
             this.label4.BackColor = System.Drawing.Color.SaddleBrown;
-            this.label4.Font = new System.Drawing.Font("Imprint MT Shadow", 30F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 30F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.ForeColor = System.Drawing.Color.Snow;
             this.label4.Location = new System.Drawing.Point(345, 189);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(212, 47);
+            this.label4.Size = new System.Drawing.Size(196, 46);
             this.label4.TabIndex = 1;
             this.label4.Text = "BOOKRY";
             // 
@@ -158,11 +158,11 @@
             // 
             this.Exit.AutoSize = true;
             this.Exit.BackColor = System.Drawing.Color.Transparent;
-            this.Exit.Font = new System.Drawing.Font("Palatino", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Exit.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Exit.ForeColor = System.Drawing.Color.SaddleBrown;
             this.Exit.Location = new System.Drawing.Point(659, 9);
             this.Exit.Name = "Exit";
-            this.Exit.Size = new System.Drawing.Size(32, 32);
+            this.Exit.Size = new System.Drawing.Size(33, 31);
             this.Exit.TabIndex = 2;
             this.Exit.Text = "X";
             this.Exit.Click += new System.EventHandler(this.Exit_Click);
@@ -178,7 +178,7 @@
             this.Controls.Add(this.Exit);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.panel1);
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Form1";
             this.Text = "Form1";
             this.panel1.ResumeLayout(false);
