@@ -142,11 +142,11 @@
             // 
             this.label1.AutoSize = true;
             this.label1.BackColor = System.Drawing.Color.Transparent;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 25F, System.Drawing.FontStyle.Bold);
+            this.label1.Font = new System.Drawing.Font("Imprint MT Shadow", 24.75F, System.Drawing.FontStyle.Bold);
             this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(63, 33);
+            this.label1.Location = new System.Drawing.Point(40, 34);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(129, 39);
+            this.label1.Size = new System.Drawing.Size(126, 39);
             this.label1.TabIndex = 3;
             this.label1.Text = "Bookry";
             // 
@@ -208,6 +208,7 @@
             this.bunifuThinButton22.ActiveForecolor = System.Drawing.Color.IndianRed;
             this.bunifuThinButton22.ActiveLineColor = System.Drawing.Color.White;
             this.bunifuThinButton22.BackColor = System.Drawing.Color.Teal;
+            this.bunifuThinButton22.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("bunifuThinButton22.BackgroundImage")));
             this.bunifuThinButton22.ButtonText = "Issue Books";
             this.bunifuThinButton22.Cursor = System.Windows.Forms.Cursors.Hand;
             this.bunifuThinButton22.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.75F, System.Drawing.FontStyle.Bold);
