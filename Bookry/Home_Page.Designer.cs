@@ -174,6 +174,7 @@
             this.Students.Size = new System.Drawing.Size(74, 40);
             this.Students.TabIndex = 4;
             this.Students.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Students.Click += new System.EventHandler(this.Students_Click);
             // 
             // bunifuThinButton21
             // 
